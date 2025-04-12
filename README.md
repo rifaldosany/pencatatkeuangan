@@ -1,6 +1,6 @@
 # 📊 Aplikasi Pencatatan Keuangan
 
-Aplikasi web sederhana untuk mencatat dan mengelola keuangan pribadi dengan tampilan yang bersih dan mudah digunakan.
+Aplikasi web untuk mencatat dan mengelola keuangan pribadi dengan tampilan yang bersih dan mudah digunakan, dibangun dengan PHP dan teknologi modern.
 
 ## 🌟 Fitur Utama
 
@@ -14,11 +14,13 @@ Aplikasi web sederhana untuk mencatat dan mengelola keuangan pribadi dengan tamp
 
 ## 🚀 Teknologi yang Digunakan
 
-- HTML5
+- PHP
+- MySQL Database
 - JavaScript
 - Tailwind CSS
 - Font Awesome Icons
 - jsPDF (untuk export PDF)
+
 
 ## 💻 Cara Penggunaan
 
@@ -45,6 +47,7 @@ Aplikasi web sederhana untuk mencatat dan mengelola keuangan pribadi dengan tamp
 
 ## 🛠️ Instalasi
 
-1. Clone repository ini:
+1. Pastikan XAMPP sudah terinstal di komputer Anda
+2. Clone repository ini ke folder htdocs:
 ```bash
 git clone [https://github.com/rifaldosany/pencatatkeuangan]

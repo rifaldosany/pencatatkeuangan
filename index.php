@@ -1,9 +1,13 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aplikasi Pencatatan Keuangan</title>
+  <title>Aplikasi Pencatatan Keuangan<script src="script.php"></script>
+  </title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
@@ -14,6 +18,7 @@
 
     <!-- Summary -->
     <div class="flex flex-col gap-4 mb-6">
+
       <!-- Total Keseluruhan -->
       <div class="p-4 bg-blue-200 rounded text-blue-800 font-bold">
         Total Keseluruhan: Rp<span id="totalAll">0</span> (<span id="totalAllTerbilang"></span>)
@@ -28,6 +33,7 @@
         </div>
       </div>
     </div>
+
     <!-- Form Input Transaksi -->
     <form id="transactionForm" class="mb-6">
       <h2 class="text-xl font-bold text-gray-800 mt-6 mb-4">Tambahkan Data Pemasukan</h2>
@@ -105,12 +111,14 @@
           </tbody>
         </table>
       </div>
+    </div>
 
-  <footer class="text-center text-gray-600 mt-8">
-    Aplikasi ini dibuat oleh <strong>Rifaldo Sany</strong>
-  </footer>
+    <footer class="text-center text-gray-600 mt-8">
+      Aplikasi ini dibuat oleh <strong>Rifaldo Sany</strong>
+    </footer>
+  </div>
 
- <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
