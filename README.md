@@ -1,6 +1,10 @@
 # 📊 Aplikasi Pencatatan Keuangan
 
-Aplikasi web untuk mencatat dan mengelola keuangan pribadi dengan tampilan yang bersih dan mudah digunakan, dibangun dengan PHP dan teknologi modern.
+<div align="center">
+  <img src="assets/images/logo.png" alt="Logo Aplikasi" width="200"/>
+  
+  Aplikasi web untuk mencatat dan mengelola keuangan pribadi dengan tampilan yang bersih dan mudah digunakan, dibangun dengan PHP dan teknologi modern.
+</div>
 
 ## 🌟 Fitur Utama
 
@@ -12,7 +16,26 @@ Aplikasi web untuk mencatat dan mengelola keuangan pribadi dengan tampilan yang 
 - 📑 Export data ke format PDF
 - 🗑️ Manajemen data (hapus semua/hapus terakhir)
 
+## 🖼️ Tampilan Aplikasi
+
+<div align="center">
+  <img src="assets/images/screenshot1.png" alt="Dashboard" width="800"/>
+  <p><i>Dashboard Aplikasi</i></p>
+  
+  <img src="assets/images/screenshot2.png" alt="Form Input" width="800"/>
+  <p><i>Form Input Transaksi</i></p>
+  
+  <img src="assets/images/screenshot3.png" alt="Tabel Transaksi" width="800"/>
+  <p><i>Tabel Data Transaksi</i></p>
+</div>
+
 ## 🚀 Teknologi yang Digunakan
+
+<div align="center">
+  <img src="https://www.php.net/images/logos/new-php-logo.svg" alt="PHP" width="100"/>
+  <img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" alt="MySQL" width="100"/>
+  <img src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg" alt="Tailwind CSS" width="100"/>
+</div>
 
 - PHP
 - MySQL Database
